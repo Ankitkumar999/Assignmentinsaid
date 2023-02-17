@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Business Site</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li> <a href="#"></a>Services</li>
+            <li> <a href="#"></a>about</li>
+            <li> <a href="#"></a>carrer</li>
+            <li class="ctn"><a href="form.html">Contact</a></li>
+        </ul>
+        <img src="./img/menu_btn.png" alt="" class="menu-btn"> 
+    </nav>
+    <header>
+    <div class="header-content">
+        <h2>Explore the colorful world</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="ctn">learn more</a>
+    
+    </div>
+    
+</header>
+<!---Events-->
+<section class="events">
+    <div class="title">
+        <h1>upcoming events</h1>
+        <div class="line"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="./img/ffff.jpg" alt="">
+            <h4>Placemet in Gurgaon</h4>
+            <p>Salary upto 13000 for fresher</p>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+        <div class="col">
+            <img src="./img/mmmm.png" alt="">
+            <h4>Placement in Bilaspur</h4>
+            <p>Salary upto 13000 for fresher</p>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </div>
+</section>
+
+    <div class="footer">
+        <p>1234 forth avenue , NY 9876 , Shamli , Uttar pradesh , INDIA | Phone: 01376 233345 | Email: contact@example.com</p>
+        <p> Copyright 2022 outdoor Placement </p>
+
+    </div>
+
+<script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const navlinks = document.querySelector('.nav-links');
+
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu');
+    })
+</script>
+</body>
+</html>
